@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title></title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                    <img src="public/image/logo.png" alt="Logo">
+                </div>
+                <div class="text">
+                    <h1><strong>atualize ideias e informações em 5 minutos.</strong></h1>
+                    <h2><strong>tudo que você precisa saber para começar seu dia bem e informado</strong></h2>
+                    <p>noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.
+                        perfeito para se preparar para codar ☕</p>
+                </div>
+                <div class="forms">
+                    <p>Insira seu e-mail:</p>
+                    <form onsubmit="return validarFormulario()">
+                        <div class="form-wrapper">
+                            <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com" required>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <img src="public/image/image.png" alt="Homem mexendo ao notebook">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/script/validation.js"></script>
+</body>
+</html>
